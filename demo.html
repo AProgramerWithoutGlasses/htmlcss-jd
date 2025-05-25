@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .f {
+            width: 600px;
+            height: 200px;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        .s {
+            height: 200px;
+            animation: slide2 10s linear infinite;
+        }
+
+        img {
+            width: 220px;
+            flex-shrink: 0;
+            height: auto;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        @keyframes slide2 {
+            0% {
+                transform: translateX(0);
+            }
+
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="f">
+        <div class="s">
+            <img src="images/slide1.webp" alt="">
+            <img src="images/slide2.webp" alt="">
+            <img src="images/slide3.webp" alt="">
+            <img src="images/slide4.webp" alt="">
+        </div>
+    </div>
+    <label>dianji
+        <input type="text" name="" id="id">
+    </label>
+    <input type="text" name="" id="">
+
+</body>
+
+</html>
